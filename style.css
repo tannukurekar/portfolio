@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: antiquewhite;
+    width: 20vw;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.main{
+    background-color: aquamarine;
+    width: 80vw;
+}
+
+.container{
+    display: flex;
+}
