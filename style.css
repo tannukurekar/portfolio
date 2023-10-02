@@ -7,9 +7,9 @@
 
 .sidebar{
     background-color: antiquewhite;
-    width: 20vw;
+    width: 15vw;
     font-family: 'Playfair Display', serif;
-
+    height: 100vh;
 }
 
 .sidebar nav{
@@ -20,13 +20,22 @@
     list-style: none;
     font-size: 30px;
     padding: 33px 0;
+   
 }
 
 .main{
     background-color: aquamarine;
-    width: 80vw;
+    width: 90vw;
 }
 
 .container{
+    display: flex;
+}
+
+.infocontainer{
+    background-color: rgb(159, 123, 69);
+    height: 70vh;
+    width: 80vw;
+    margin: 144px auto;
     display: flex;
 }
